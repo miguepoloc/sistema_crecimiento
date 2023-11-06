@@ -10,7 +10,7 @@ def capture() -> str:
     This function demonstrates the usage of the CameraController class to capture and save an image
     using a Raspberry Pi camera.
 
-    Returns:
+    Returns
         str: The route (file path) of the saved image.
     """
     # Create a CameraController object

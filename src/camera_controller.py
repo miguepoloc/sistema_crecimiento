@@ -32,7 +32,7 @@ class CameraController:
         self.route = "/home/gideam/Desktop/sistema_crecimiento/images/"
         self.raspberry_id = "rpi1"
 
-    def capture_and_save_image(self):
+    def capture_and_save_image(self) -> str:
         """
         Captures an image using the camera and saves it to a specified route with a unique filename.
         """
