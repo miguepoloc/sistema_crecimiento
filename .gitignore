@@ -170,6 +170,14 @@ poetry.toml
 # ruff
 .ruff_cache/
 
+#model
+.best.pt
+./src/best.pt
+.*.pt
+./best.pt
+.best.pt
+best.pt
+
 # LSP config files
 pyrightconfig.json
 
